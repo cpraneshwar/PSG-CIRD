@@ -20,6 +20,7 @@ img.topLogo{
     text-align: center;
     font-size: 15px;
     padding: 15px;
+    margin-top: 30px;
 }
 /* For mobile phones: */
 [class*="col-"] {
@@ -149,4 +150,11 @@ li.nav3 {
 }
 .project-li{
   padding: 2px;
+}
+
+.project-div-bottom{
+  border-bottom-color: #ddd;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 15px;
 }
