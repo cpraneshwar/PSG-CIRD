@@ -158,3 +158,20 @@ li.nav3 {
   border-bottom-width: thin;
   padding-bottom: 15px;
 }
+
+.aside1{
+  width=300px;
+}
+
+.facilityImg{
+  width: 200px;
+  height: 200px;
+}
+
+.facility-div{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 3px;
+}

@@ -16,6 +16,7 @@
       <div class="w3-right w3-hide-small">
         <a href="projects.html" class="w3-bar-item w3-button">Project</a>
         <a href="industries.html" class="w3-bar-item w3-button">Industries</a>
+        <a href="facilities.html" class="w3-bar-item w3-button">Facilities</a>
         <a href="services.html" class="w3-bar-item w3-button">Services</a>
       </div>
     </div>
@@ -36,14 +37,15 @@
   <div classa="w3-col l10">
     <div class="project-div-bottom">
       <ul class="nav3">
-        <li class="nav3 " id="navhover2" onclick="disp()" onmouseover="style.color='blue'" onmouseout="style.color='black'">Service Type1</li>
-        <li class="nav3 " id="navhover2" onclick="disp1()"onmouseover="style.color='blue'" onmouseout="style.color='black'">Service Type2</li>
+        <li class="nav3 " id="navhover2" onclick="disp()" onmouseover="style.color='blue'" onmouseout="style.color='black'">Consultancy Service</li>
+        <li class="nav3 " id="navhover2" onclick="disp1()"onmouseover="style.color='blue'" onmouseout="style.color='black'">Sponsored Service</li>
+        <li class="nav3 " id="navhover2" onclick="disp2()"onmouseover="style.color='blue'" onmouseout="style.color='black'">MOU</li>
       </ul>
     </div>
     <br />
     <div>
       <div id="service desc" style="background-color:#eef0ef; margin:10px; padding:10px">
-        Service Description 1
+        Consultancy Services
       </div>
       <div id="service list" style="margin:10px; padding:10px">
         List of Services (Type1) in table format with description
@@ -51,13 +53,17 @@
     </div>
     <script type="text/javascript">
       function disp() {
-        document.getElementById('service desc').innerHTML = "Service Description 1";
+        document.getElementById('service desc').innerHTML = "Consultancy Service";
         document.getElementById('service list').innerHTML = "List of Services (Type1) in table format with description";
       }
-    function disp1() {
-      document.getElementById('service desc').innerHTML = "Service Description 2";
-      document.getElementById('service list').innerHTML = "List of Services (Type2) in table format with description";
-    }
+      function disp1() {
+        document.getElementById('service desc').innerHTML = "Sponsored Service";
+        document.getElementById('service list').innerHTML = "List of Services (Type2) in table format with description";
+      }
+      function disp2() {
+        document.getElementById('service desc').innerHTML = "MOU signed";
+        document.getElementById('service list').innerHTML = "List of Services (Type3) in table format with description";
+      }
     </script>
   </div>
   <div class="w3-col l1">

@@ -6,11 +6,21 @@
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/style.css">
 
-<body>
+
+    <link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+<body class=" loading">
+
+
+
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
       <a href="#home"><img class="topLogo" src="images/psgLogo.png" align="middle"/><b> PSG CIRD</b></a>
+      <a href="#home" class="w3-bar-item w3-button"><b>PSG CIRD</b></a>
       <!-- Float links to the right. Hide them on small screens -->
       <div class="w3-right w3-hide-small">
         <a href="projects.html" class="w3-bar-item w3-button">Project</a>
@@ -20,7 +30,7 @@
       </div>
     </div>
   </div>
-  <a name="home">
+
   <div class="div-height">
   <ul class="nav3">
      <li class="nav3" onmouseover="style.color='#4375aa'" onmouseout="style.color='black'"><a href="#about">About Us</a></li>
@@ -29,7 +39,53 @@
   </ul>
 </div>
 
-  <div class="row">
+    <div class="demo-3 slideshow">
+				<div class="slides">
+					<div class="slide slide--current">
+						<div class="slide__img" style="background-image: url(img/17.jpg)"></div>
+						<h2 class="slide__title"></h2>
+						<p class="slide__desc"></p>
+						<a class="slide__link" href="#">View Details</a>
+					</div>
+					<div class="slide">
+						<div class="slide__img" style="background-image: url(images/slideshow1.jpg)"></div>
+            <h2 class="slide__title"></h2>
+						<p class="slide__desc"></p>
+						<a class="slide__link" href="#">View Details</a>
+					</div>
+					<div class="slide">
+						<div class="slide__img" style="background-image: url(images/slideshow2.jpg)"></div>
+            <h2 class="slide__title"></h2>
+						<p class="slide__desc"></p>
+						<a class="slide__link" href="#">View Details</a>
+					</div>
+					<div class="slide">
+						<div class="slide__img" style="background-image: url(images/slideshow3.jpg)"></div>
+            <h2 class="slide__title"></h2>
+						<p class="slide__desc"></p>
+						<a class="slide__link" href="#">View Details</a>
+					</div>
+            <div class="slide">
+						<div class="slide__img" style="background-image: url(images/slideshow4.jpg)"></div>
+            <h2 class="slide__title"></h2>
+						<p class="slide__desc"></p>
+						<a class="slide__link" href="#">View Details</a>
+					</div>
+				</div>
+				<nav class="slidenav">
+					<button class="slidenav__item slidenav__item--prev">Previous</button>
+					<span>/</span>
+					<button class="slidenav__item slidenav__item--next">Next</button>
+				</nav>
+			</div>
+
+        <script src="js/demo.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/demo3.js"></script>
+
+
+    <!--<div class="row">
     <center>
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -50,7 +106,7 @@
       </div>
       <br>
     </center>
-  </div>
+  </div>-->
   <script>
   var slideIndex = 0;
   showSlides();
@@ -114,7 +170,7 @@
     <div class="w3-row-padding">
       <div class="w3-col l3 m6 w3-margin-bottom">
         <img src="images/DeanIRD.jpg" alt="Dean" class="contactImg">
-        <h3>Dr. Name</h3>
+        <h3>Dr. A. Kandaswamy</h3>
         <p class="w3-opacity">Dean IR&D</p>
         <p> Center for Industrial Research and development.<br>
             PSG College of Technology</p>
