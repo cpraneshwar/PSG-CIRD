@@ -323,6 +323,7 @@ a.demo--current {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
+	margin-top: 40px;
 }
 
 .slide--current {
