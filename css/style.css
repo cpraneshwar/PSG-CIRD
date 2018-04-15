@@ -175,3 +175,15 @@ li.nav3 {
   margin-bottom: 3px;
   padding: 3px;
 }
+
+button.editButton{
+    background-color: red;
+    border:none;
+    border-radius: 2px;
+}
+
+.intro{
+    width:80%;
+    height:200px;
+    resize:none;
+}
